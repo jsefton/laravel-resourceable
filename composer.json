@@ -1,0 +1,28 @@
+{
+  "name": "jsefton/laravel-resourceable",
+  "type": "library",
+  "description": "Create unique resources and relate together without context",
+  "keywords": ["laravel","eloquent","relationships","resource"],
+  "homepage": "https://endor.digital",
+  "license": "MIT",
+  "repositories":[],
+  "require": {
+      "laravel/framework": ">=7.0"
+  },
+  "archive": {
+    "exclude": [
+      "/tests",
+      "tests",
+      "tests/*.*",
+      "phpunit.xml",
+      ".gitignore",
+      ".gitattributes",
+      "README.md"
+    ]
+  },
+  "autoload": {
+    "psr-4": {
+      "JSefton\\Resourceable\\": "src/"
+    }
+  }
+}
